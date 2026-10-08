@@ -1,0 +1,14 @@
+name: ThaiFont
+version: 1.0.0
+main: th.thaifont.ThaiFontPlugin
+api-version: '26.2'
+description: ส่ง Resource Pack ฟอนต์ไทย Itim ให้ผู้เล่นตอนเข้าเซิร์ฟ
+commands:
+  thaifont:
+    description: จัดการปลั๊กอิน ThaiFont
+    usage: /thaifont <reload|send>
+    permission: thaifont.admin
+permissions:
+  thaifont.admin:
+    description: ใช้คำสั่ง /thaifont
+    default: op
